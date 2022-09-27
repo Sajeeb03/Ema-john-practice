@@ -1,0 +1,29 @@
+.cart-design {
+    position: sticky;
+    top: 0;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cart-design p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+
+.cart-design h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    margin-left: 23px;
+}
