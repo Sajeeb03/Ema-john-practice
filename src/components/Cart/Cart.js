@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleClearCart }) => {
     // console.log(cart);
     const quantity = cart.reduce((p, n) => p + n.quantity, 0)
     const totalPrice = cart.reduce((p, n) => p + n.price * n.quantity, 0);
@@ -16,6 +16,7 @@ const Cart = ({ cart }) => {
             <p>Total Shipping Charge: ${totalShipping}</p>
             <p>Tax: ${tax}</p>
             <h2>Grand Total: ${grandTotal.toFixed(2)}</h2>
+            <button className='clear-btn' onClick={handleClearCart}>Clear Cart</button>
         </div>
     );
 };
